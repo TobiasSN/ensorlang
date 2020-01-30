@@ -42,7 +42,7 @@ At the moment there are 4 different types:
 - Numbers: Any base 10 number. Positive or negative. Decimal or integer. Examples: `-42`, `3.4`, `624`.
 - Characters: Any single character. Can be a number, letter, or any other symbol. Examples: `f`, `6`, `§`.
 - Strings: Any sequence of characters. Examples: `Hello, world!`, `Lorem ipsum dolot sit amet.`, `¡““§∞§™£`.
-- Booleans: Either `nice` or `not nice`. Basically yes or no, true or false, black or white, etc.
+- Booleans: Either `nice` or `not nice`. Basically yes or no, true or false, black or white, etc. `nice` corresponds to `true` in most other languages, while `not nice` corresponds to `false`.
 
 ## Program structure
 
