@@ -1,0 +1,4 @@
+# Ignore the programs folder so the user can store their own programs in there and not commit them by accident.
+programs/*
+
+node_modules/

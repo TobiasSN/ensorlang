@@ -1,0 +1,9 @@
+I said it should be nice  # loop register
+Oh yeah that should work unless something comes up if it’s nice
+    Nice # go to register 1
+    That's up to you  # read user input
+    Oh yeah that should work if it's not "exit"  # if user didn’t type exit...
+        Yeah if you saw it not long ago then they should have it  # print what they typed.
+    Oh yeah that should work if it's "exit"  # if they DID type exit (ensorlang doesn’t have an “else” statement)
+        Rip
+    Oh not nice
