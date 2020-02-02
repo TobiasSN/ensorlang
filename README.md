@@ -69,6 +69,10 @@ These are the ones that do things. Stuff like "set the value of this cell" or "p
 - `I have to cancle` - Sets the value of the current memory cell to `0`.
 - `Yeah if you saw it not long ago then they should have it` - Prints the value of the current memory cell.
 - `That's up to you` - Accepts input from the user and stores it in the current register as a string.
+- `Thsats good` - Behaves differently depending on the type of the value in the current cell and the next one:
+  - If one of them is a boolean, the program crashes.
+  - If one of them is a string or a character, both are converted to strings, joined together and stored in the current cell.
+  - If both are numbers, they're added together and stored in the current cell.
 
 ### Block instructions
 

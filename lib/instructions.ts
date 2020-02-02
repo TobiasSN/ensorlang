@@ -31,6 +31,21 @@ instruction("That's up to you", async (state) => {
 	state.current = await input();
 }, null);
 
+instruction("Thsats good", (state) => {
+	let current = state.current;
+	let next = state.memory[state.pointer + 1];
+
+	let currentType = typeof (current);
+	let nextType = typeof (next);
+
+	if (currentType == "boolean" || nextType == "boolean") {
+		print("Can't add booleans to other values.");
+		state.running == false;
+	} else if (currentType == "string" || nextType == "string" || currentType == "number" && nextType == "number") {
+		state.current = current + next;
+	}
+}, null);
+
 blockInstruction("Oh yeah that should work if it's <value>", (inner, state, [value]) => {
 	if (state.current == value) {
 		return inner();
