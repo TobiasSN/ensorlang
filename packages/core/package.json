@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"start": "node -r ts-node/register bin/execute.ts",
+		"debug": "node -r ts-node/register --inspect-brk bin/execute.ts"
+	},
+	"devDependencies": {
+		"@types/node": "^13.5.0",
+		"ts-node": "^8.6.2",
+		"typescript": "^3.7.5"
+	},
+	"dependencies": {
+		"readline-sync": "^1.4.10"
+	}
+}
